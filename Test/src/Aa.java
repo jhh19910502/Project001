@@ -1,5 +1,8 @@
 
 public class Aa {
+	public static void test(){
+		System.out.println("ssssss");
+	}
 	public static void getRst(int[] a,int len){
 		int fir = a[0];
 		int sec = -(1>>32);
@@ -11,8 +14,8 @@ public class Aa {
 				sec = a[i];
 			}
 		}
-		System.out.println("最大数为:"+fir);
-		System.out.println("第二大数为:"+sec);
+		System.out.println("鏈�澶ф暟涓�:"+fir);
+		System.out.println("绗簩澶ф暟涓�:"+sec);
 	}
 	public static void findMax(int[] a,int len){
 		int sum = -(1<<10);
